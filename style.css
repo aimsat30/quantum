@@ -1,0 +1,303 @@
+body{
+    margin: 16px;
+    padding: 16px;
+    margin-left: 150px;
+    margin-right: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.alert{
+    color: red;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-family: 'Times New Roman', Times, serif; 
+    text-align: center;
+    padding-top: 20px;
+}
+
+.header{
+    display: flex;
+}
+
+.title{
+    margin-left: 250px;
+}
+.order-details{
+    margin-left: 50px;
+}
+.body{
+    margin-left: 150px;
+    margin-top: 180px;
+}
+
+table, td, th {
+    border: 1px solid;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  table {
+    width: 40%;
+    border-collapse: collapse;
+    text-align: center;
+  }
+  th {
+    height: 70px;
+    font-size: 16px;
+  }
+  td{
+    height: 50px;
+  }
+
+  .content{
+    display: flex;
+    margin: 30px;
+    margin-left: 280px;
+  }
+
+  .table1{
+    text-align: left;
+    width: 40%;
+    margin-right: 20px;
+  }
+  .table2{
+    text-align: left;
+    width: 40%;
+  }
+  .table-content{
+    margin: 30px;
+    margin-left: 280px;
+  }
+  .text-content{
+    margin: 30px;
+    margin-left: 280px;
+    margin-right: 250px;
+  }
+
+  .signature{
+    display: flex;
+    margin: 30px;
+    margin-left: 50px;
+    justify-content: center;
+  }
+  .column-1{
+    margin-right: 50px;
+  }
+
+/* media query */
+@media screen and (min-width: 1499px) and (max-width: 1700px) {
+    body{
+        margin: 15px;
+        padding: 15px;
+    }
+    .title{
+        margin-left: 320px;
+    }
+    .order-details{
+        margin-left: 30px;
+    }
+    .body{
+        margin-left: 140px;
+    }
+    .content{
+        justify-content: center;
+        margin: 20px;
+        margin-left: 220px;
+        margin-right: 140px;
+    }
+    .table-content{
+        display: flex;
+        justify-content: center;
+        margin-left: 150px;
+    }
+    .table-content table, td, th {
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+    .text-content{
+        margin: 30px;
+        margin-left: 350px;
+        margin-right: 250px;
+    }
+}
+@media screen and (min-width: 990px) and (max-width: 1498px) {
+    body{
+        margin: 15px;
+        padding: 15px;
+    }
+    .title{
+        margin-left: 320px;
+    }
+    .order-details{
+        margin-left: 30px;
+    }
+    .body{
+        margin-left: 140px;
+    }
+    .content{
+        justify-content: center;
+        margin: 20px;
+        margin-left: 220px;
+        margin-right: 140px;
+    }
+    .table-content{
+        display: flex;
+        justify-content: center;
+        margin-left: 150px;
+    }
+    .table-content table, td, th {
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+    .text-content{
+        margin: 30px;
+        margin-left: 350px;
+        margin-right: 250px;
+    }
+}
+@media screen and (min-width: 930px) and (max-width: 991px) {
+    body{
+        margin: 18px;
+        padding: 18px;
+    }
+    .title{
+        margin-left: 20px;
+    }
+    .order-details{
+        margin-left: 30px;
+    }
+    .body{
+        margin-left: 0px;
+    }
+    .content{
+        justify-content: center;
+        margin: 20px;
+    }
+    .table-content{
+        display: flex;
+        justify-content: center;
+        margin: 0;
+    }
+    .table-content table, td, th {
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+    .text-content{
+        margin: 30px;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 929px) {
+    body{
+        margin: 10px;
+        padding: 10px;
+    }
+    .title{
+        margin-left: 0px;
+    }
+    .order-details{
+        margin-left: 5px;
+    }
+    .body{
+        margin-left: 0px;
+    }
+    .body table, td, th {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .content{
+        justify-content: center;
+        margin: 20px;
+    }
+    .table-content{
+        display: flex;
+        justify-content: center;
+        margin: 0;
+    }
+    .table-content table, td, th {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .text-content{
+        margin: 30px;
+    }
+}
+@media screen and (min-width: 576px) and (max-width: 767px) {
+    body{
+        margin: 10px;
+        padding: 10px;
+    }
+    .title{
+        margin-left: 0px;
+    }
+    .order-details{
+        margin-left: 0px;
+    }
+    .body{
+        margin-left: -170px;
+    }
+    .content{
+        justify-content: center;
+        margin: 20px;
+    }
+    .table-content{
+        display: flex;
+        justify-content: center;
+        margin: 0;
+    }
+    .table-content table, td, th {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .text-content{
+        margin: 10px;
+    }
+
+    .signature{
+        margin: 3px;
+        margin-left: 5px;
+    }
+
+    .column-1{
+        margin-right: 5px;
+    }
+}
+@media screen and (min-width: 576px) and (max-width: 767px) {
+    body{
+        margin: 10px;
+        padding: 10px;
+    }
+    .title{
+        margin-left: 0px;
+    }
+    .order-details{
+        margin-left: 0px;
+    }
+    .body{
+        margin-left: -170px;
+    }
+    .content{
+        justify-content: center;
+        margin: 20px;
+    }
+    .table-content{
+        display: flex;
+        justify-content: center;
+        margin: 0;
+    }
+    .table-content table, td, th {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .text-content{
+        margin: 10px;
+    }
+
+    .signature{
+        margin: 3px;
+        margin-left: 5px;
+    }
+
+    .column-1{
+        margin-right: 5px;
+    }
+}
